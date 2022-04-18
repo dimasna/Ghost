@@ -2246,7 +2246,7 @@
     got "9.6.0"
     lodash "^4.17.21"
 
-"@tryghost/root-utils@0.3.12", "@tryghost/root-utils@^0.3.12", "@tryghost/root-utils@^0.3.8", "@tryghost/root-utils@^0.3.9":
+"@tryghost/root-utils@0.3.12":
   version "0.3.12"
   resolved "https://registry.yarnpkg.com/@tryghost/root-utils/-/root-utils-0.3.12.tgz#c0544b79a9b34e543dd94f09173f2f672fa7535c"
   integrity sha512-dmv2GRm0VV6cMHAi9awGZnBs1SmDHivdIJWz86TbxiVZoIFCWAwqlTNnz/RUJiBlLCfZlXsBnIeRkjeFC3m8OA==
@@ -2258,6 +2258,14 @@
   version "0.1.0"
   resolved "https://registry.yarnpkg.com/@tryghost/root-utils/-/root-utils-0.1.0.tgz#7578cb5e57953316fef58edd43a152a86b719a8f"
   integrity sha512-zy3PSviwytjvjdMso86RYZLE2I4e2yL/s83fIEf/g17C8V8hsCcgE83cFOpCw3ISWDFX3Qi0IX9kI3or2pfGLg==
+  dependencies:
+    caller "^1.0.1"
+    find-root "^1.1.0"
+
+"@tryghost/root-utils@^0.3.12", "@tryghost/root-utils@^0.3.13", "@tryghost/root-utils@^0.3.8", "@tryghost/root-utils@^0.3.9":
+  version "0.3.13"
+  resolved "https://registry.yarnpkg.com/@tryghost/root-utils/-/root-utils-0.3.13.tgz#c6060bc0a57eb01920a2f478eb0b8380704b93b5"
+  integrity sha512-e5eR8vXmMyHpdrphnK2Shkf9NUBcouduSgd736eJFXQ1Vhx/oVznZyUCDRM6y6UqeSBEBmW+5c+F31bTM0c++Q==
   dependencies:
     caller "^1.0.1"
     find-root "^1.1.0"
@@ -2358,12 +2366,12 @@
     "@tryghost/domain-events" "^0.1.9"
     "@tryghost/member-events" "^0.4.1"
 
-"@tryghost/version@0.1.12", "@tryghost/version@^0.1.12":
-  version "0.1.12"
-  resolved "https://registry.yarnpkg.com/@tryghost/version/-/version-0.1.12.tgz#66f1543053e16b4a4f1725d70ccdc02e88e12a64"
-  integrity sha512-SmH7u2xuw7Ou/YHGqLNiEyoWg4wgjspDkdrK2Zl0e1Yo4KzuQdljIke61t7xbfV7mwZojp+E7t/vGV+JdUVTwA==
+"@tryghost/version@0.1.13", "@tryghost/version@^0.1.12":
+  version "0.1.13"
+  resolved "https://registry.yarnpkg.com/@tryghost/version/-/version-0.1.13.tgz#4408546a8d908c99dd6b0ee1dd1fe90431b4eaad"
+  integrity sha512-EoLTAC5Tn/A1ltDmF7ugmMse6Ld4i1Fh3lAANYKJY1Ka/mylqE9vS+/7/6DSsmOtFk0I77XTY5kt63oC4uIo8A==
   dependencies:
-    "@tryghost/root-utils" "^0.3.12"
+    "@tryghost/root-utils" "^0.3.13"
     semver "^7.3.5"
 
 "@tryghost/vhost-middleware@1.0.22":
